@@ -1,0 +1,34 @@
+{
+  "isMakaApp": true,
+  "name": "zlj-tool",
+  "description": "Some tools collection developed by maka.js",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "ziaochina",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaochina/zlj-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ziaochina/zlj-tool/issues"
+  },
+  "homepage": "https://github.com/ziaochina/zlj-tool#readme",
+  "scripts": {
+    "start": "maka start",
+    "dev": "maka start --dev",
+    "build": "maka build",
+    "pkg": "maka pkg"
+  },
+  "dependencies": {
+    "zlj-tool-json": "https://hub.makajs.org/zlj-tool-json/-/@1.0.2",
+    "zlj-tool-markdown": "https://hub.makajs.org/zlj-tool-markdown/-/@1.0.0"
+  },
+  "server": {
+    "proxy": null,
+    "port": 8000
+  },
+  "subAppDir": "./apps",
+  "devDependencies": {
+    "antd": "^3.10.3"
+  }
+}
